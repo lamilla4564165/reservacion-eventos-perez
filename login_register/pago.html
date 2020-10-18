@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago de Evenetos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center pt-5 mt-2 mr-1 mb-5">
+            <div class="rounded border border-secondary text-white fondo p-2">
+
+                <form action="#" method="post">
+                    <fieldset class="text-center">
+                        <h2>Compra pase de Evento</h2>
+                        <p>Datos de inicio de Sesion</p>
+                    </fieldset>
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control fondo" placeholder="Nombre" required><label for="nombre">Nombre:</label>
+                            <label for="Correo">Correo electronico:</label>
+                            <input type="email" name="Usuario" id="usuario" class="form-control fondo" placeholder="Correo electronico" required>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="Usuario">Contraseña:</label>
+                            <input type="text" name="Usuario" id="usuario" class="form-control fondo" placeholder="Contraseña" required>
+                        </div>
+                        <div class="col form-group">
+                            <label for="Confirmar">Confirmar contraseña:</label>
+                            <input type="password" name="Contraseña" id="contraseña" class="form-control fondo" placeholder="Confirmar contraseña" required>
+                        </div>
+                    </div>
+                    <fieldset class="text-center">
+                        <h3>Informacion de Pago</h3>
+                    </fieldset>
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control fondo" placeholder="Nombre" required>
+                        </div>
+                        <div class="col form-group">
+                            <label for="apellido">Apellidos:</label>
+                            <input type="text" class="form-control fondo" placeholder="Apellidos" required>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="tipo">Tipo de Tarjeta:</label></br>
+
+                            <select id="opciones" class="form-control fondo">
+                                <option value="-1">Seleccione su tipo de tarjeta</option>
+                                <option value="visa">Visa</option><option value="master_card">Mastercard</option>
+                                <option value="amex">American Express</option>
+                                <option value="discover">Discover</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="numro"></label>Numero de targeta:</label>
+                        </div>
+                    </div>
+                    <input type="number" name="numero" id="" class="form-control fondo" placeholder="Numero" maxlength="16" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required />
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <label for="Vencimiento">Vencimiento:</label>
+                            <input type="month" class="form-control fondo" placeholder="Vencimiento" required>
+                        </div>
+                        <div class="col form-group">
+                            <label for="csc">CSC:</label>
+                            <input type="text" class="form-control fondo" placeholder="CSC" maxlength="4" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between row form-group">
+                        <a href="..//index.html"> <input type="button" value="Cancelar" class="btn btn-dark fondo p-2 pl-5 pr-5 ml-3"></a>
+                        <input type="submit" value="Pagar ahora" class="btn btn-dark fondo p-2 mr-3 pl-5 pr-5">
+                    </div>
+                    <div class="alert alert-success" role="alert">
+                        Pago exitoso!
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

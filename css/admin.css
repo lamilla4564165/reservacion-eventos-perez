@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+.container-fluid {
+    width: 2500px
+}
+
+.row {
+    text-align: center;
+}
+
+.col {
+    border: 5px solid #918D8C;
+}
+
+div a {
+    text-decoration: none;
+}
+
+.col {
+    color: black;
+    width: 200px;
+}
+
+.container {
+    margin: 20px 280px;
+}
+
+.table-bordered-table-sm {
+    width: 91%;
+    height: 550px;
+}
+
+.clintetema {
+    text-align: center;
+}
+
+.rellenar {
+    width: 640px;
+    height: 550px;
+}
+
+.inputtean {
+    width: 250px;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+}
+
+.datos {
+    width: 210px;
+    line-height: 5px;
+}
+
+
+=======
+div a {
+    text-decoration: none;
+}
+
+.table-bordered-table-sm {
+    width: 91%;
+    height: 550px;
+}
+
+.clintetema {
+    text-align: center;
+}
+
+.rellenar {
+    width: 640px;
+    height: 550px;
+}
+
+.inputtean {
+    width: 250px;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+}
+
+.datos {
+    width: 210px;
+    line-height: 5px;
+}
+
+
+>>>>>>> 61c3cf220a21337f86813d84ad6f62ca9e299d69
+/*ANCHO --line-height: 75px;*/

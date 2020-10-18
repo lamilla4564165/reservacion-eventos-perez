@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EVENTOS</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html" style="text-decoration: none; ">
+                    <h1 style="color: rgba(3, 3, 3, 0.801);">SALA DE <span class="fw-300"> EVENTOS</span></h1>
+                </a>
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono Menu">
+                    </a>
+                </div>
+
+                <nav id="navegacion" class="navegacion">
+                    <div style="display: none;">
+                        <a href="nosotros.html"><strong>Sus reservaciones</strong></a>
+                        <a href="contacto.html"><strong>Contactanos</strong></a>
+                    </div>
+                    <div style="display: block;">
+                        <a href="login_register/login.html"><strong>Iniciar sesion</strong></a>
+                        <a href="login_register/Register.html"><strong>Registrarse</strong></a>
+                    </div>
+                </nav>
+            </div>
+        </div> <!-- contenedor -->
+    </header>
+
+    <h1 class="fw-300 centrar-texto">Contacto</h1>
+    <img src="img/destacada3.jpg" alt="Imagen Principal">
+
+    <main class="contenedor seccion contenido-centrado">
+        <h2 class="fw-300 centrar-texto">Llena el formulario de Contacto</h2>
+
+        <form class="contacto" action="">
+            <fieldset>
+                <legend>Información sobre el Evento</legend>
+                <label for="opciones">¿Que seccion esta interesado en alquilar?</label>
+                <select id="opciones">
+                    <option value="" disabled selected>-- Seleccione --</option>
+                    <option value="fondo sur">Fondo Sur (sector C)</option>
+                    <option value="Tribuna">Tribuna (Sector A)</option>
+                    <option value="Fondo Norte">Fondo Norte (Sector D)</option>
+                    <option value="Preferencia">Preferencia (Sector B)</option>
+                    <option value="Esquina">Esquina Sector Social</option>
+                    <option value="Cancha">Cancha</option>
+                </select>
+
+                <label for="costo">Costo:</label>
+                <input type="number" min="0" max="100" step="5">
+                <label for="descripcion">Descripcion: </label>
+                <textarea  id="mensaje"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacto</legend>
+
+                <p>Como desea ser Contactado:</p>
+
+                <div class="forma-contacto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="radio" name="contacto" value="telefono" id="telefono">
+
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" id="correo">
+                </div>
+
+                <p>Si eligió Teléfono, elija la fecha y la hora</p>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" min="09:00" max="18:00">
+
+     
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton boton-verde">
+
+        </form>
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <div style="display: none;">
+                    <a href="nosotros.html"><strong>Sus reservaciones</strong></a>
+                    <a href="contacto.html"><strong>Contactanos</strong></a>
+                </div>
+                <div style="display: block;">
+                    <a href="login_register/login.html"><strong>Iniciar sesion</strong></a>
+                    <a href="login_register/Register.html"><strong>Registrarse</strong></a>
+                </div>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2019 &copy; </p>
+        </div>
+    </footer>
+</body>
+</html>

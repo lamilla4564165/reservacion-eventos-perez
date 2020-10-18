@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Diego Velázquez">
+    <meta name="description" content="Tablero con Bootstrap 4 - Webook">
+    <title>Cliente</title>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de estilos -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="d-flex" id="content-wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="bg-light border-right">
+            <div class="logo">
+                <h4 class="font-weight-bold mb-0">Hola Enzo</h4>
+            </div>
+            <div class="menu list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-apps lead mr-2"></i> Tablero</a>
+                <a href="cliente.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-people lead mr-2"></i> Clientes</a>
+                <a href="usuario.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+                class="icon ion-md-people lead mr-2"></i> Usuarios</a>
+                <a href="grafico.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-stats lead mr-2"></i> Estadísticas</a>
+                <a href="eventos.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-calendar lead mr-2"></i>Eventos</a>
+                <a href="pagosti.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+                class="icon ion-md-calendar lead mr-2"></i>Pagos</a>
+                <a href="..//login_register/login.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"> <i class="icon ion-md-settings lead mr-2"></i> Cerrar Sesion</a>
+            </div>
+        </div>
+        <!-- Fin sidebar -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper" class="w-100 bg-light-blue">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <div id="content" class="container-fluid p-5">
+                        <section class="py-3">
+                            <!-- Highlights -->
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-6">
+                                    <div class="card mb-5 shadow-sm border-0 shadow-hover">
+                                        <div class="card-body d-flex">
+                                            <div>
+                                                <div class="circle rounded-circle bg-primary align-self-center d-flex mr-3">
+                                                    <i class="icon ion-md-trending-up text-primary align-self-center mx-auto lead"></i>
+                                                </div>
+                                            </div>
+                                            <div class="align-self-center">
+                                                <h5 class="mb-0">3200</h5>
+                                                <small class="text-muted">Ventas totales</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-6">
+                                    <div class="card mb-5 shadow-sm border-0 shadow-hover">
+                                        <div class="card-body d-flex">
+                                            <div>
+                                                <div class="circle rounded-circle bg-primary align-self-center d-flex mr-3">
+                                                    <i class="icon ion-md-people text-primary align-self-center mx-auto lead"></i>
+                                                </div>
+                                            </div>
+                                            <div class="align-self-center">
+                                                <h5 class="mb-0">1345</h5>
+                                                <small class="text-muted">Usuarios</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-6">
+                                    <div class="card mb-5 shadow-sm border-0 shadow-hover">
+                                        <div class="card-body d-flex">
+                                            <div>
+                                                <div class="circle rounded-circle bg-primary align-self-center d-flex mr-3">
+                                                    <i class="icon ion-md-cash text-primary align-self-center mx-auto lead"></i>
+                                                </div>
+                                            </div>
+                                            <div class="align-self-center">
+                                                <h5 class="mb-0">$20,05</h5>
+                                                <small class="text-muted">Ingresos Netos</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin highlights -->
+                            <div class="row mb-3">
+                                <!-- Tabla usuarios -->
+                                <div class="col-xl-7 col-lg-12">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <thead>
+                                                    <tr>
+                                                        <th>ID</th>
+                                                        <th>Nombre</th>
+                                                        <th>Apellido</th>
+                                                        <th>Cedula</th>
+                                                        <th>Correo</th>
+                                                        <th>Ciudad</th>
+                                                        <th style="width: 100%;">Direccion</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>1</th>
+                                                        <td>Jonthan</td>
+                                                        <td>Vera Macias</td>
+                                                        <td>1207496985</td>
+                                                        <td>jveramacias2@gmail.com</td>
+                                                        <td>Babahoyo</td>
+                                                        <td>5 DE Junio y barreiro</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>2</th>
+                                                        <td>Anddy</td>
+                                                        <td>Lopez Ledesma</td>
+                                                        <td>1204585967</td>
+                                                        <td>anddylopez85@gmail.com</td>
+                                                        <td>Babahoyo</td>
+                                                        <td>10 de agosto y golondrina</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>3</th>
+                                                        <td>Enzo</td>
+                                                        <td>Tamaqiza Murillo</td>
+                                                        <td>1258674853</td>
+                                                        <td>enzotm31@gmail.com</td>
+                                                        <td>Babahoyo</td>
+                                                        <td>calle f t trasc 11</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>4</th>
+                                                        <td>Andres</td>
+                                                        <td>Coello Goyes</td>
+                                                        <td>1208563745</td>
+                                                        <td>coelloandres@gmail.com</td>
+                                                        <td>Babahoyo</td>
+                                                        <td>via san juan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>5</th>
+                                                        <td>Cristian</td>
+                                                        <td>MOreira Pazmiño</td>
+                                                        <td>120859631</td>
+                                                        <td>crismoreia@yopmil.com</td>
+                                                        <td>Babahoyo</td>
+                                                        <td>caronera via la costa</td>
+                                                    </tr>
+                                                </tbody>
+                                        </table>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- Fin tabla usarios -->
+                                <div class="col-4 ml-4" style="
+            line-height: 1.0;
+            text-transform: initial;">
+                                    <form class="rellenar">
+                                        <fieldset class="inputtean">
+                                            <h3>
+                                                <legend>Ingresar</legend>
+                                            </h3>
+                                            <p>Nombre: </p>
+                                            <input type="text " name="nombren " class="form-control" size="20" required></p>
+                                            <p>Apellido:</p>
+                                            <input type="text " name="apellidon " class="form-control" size="20" required></p>
+                                            <p>Cedula: </p>
+                                            <input type="text " name="cedulan " class="form-control" size="20" required></p>
+                                            <p>Correo: </p>
+                                            <input type="text " name="correon " placeholder=" " class="form-control" size="20" required></p>
+                                            <p>Ciudad: </p>
+                                            <input type="text " name="ciudadn " placeholder=" " class="form-control" size="20" required></p>
+                                            <p>Direccion:</p>
+                                            <input type="text " name="direccionn " class="form-control" size="20" required></p>
+                                            <div>
+                                                <p><button type="submit " class="btn btn-outline-secondary">Guardar</button><button type="submit " class="btn btn-outline-secondary">Guardar</button></p>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <!-- Fin mensajes -->
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <!-- Fin Page Content -->
+        </div>
+        <!-- Fin wrapper -->
+        <!-- Bootstrap y JQuery -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Abrir / cerrar menu -->
+        <script>
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#content-wrapper").toggleClass("toggled");
+            });
+        </script>
+
+</body>
+
+</html>

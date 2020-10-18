@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Diego Velázquez">
+    <meta name="description" content="Tablero con Bootstrap 4 - Webook">
+    <title>Pagos</title>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de estilos -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href=".//assets/">
+
+    <script>
+        function mensaje() {
+            alert('Pago Exitoso')
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="d-flex" id="content-wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="bg-light border-right">
+            <div class="logo">
+                <h4 class="font-weight-bold mb-0">Hola Enzo</h4>
+            </div>
+            <div class="menu list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-apps lead mr-2"></i> Tablero</a>
+                <a href="cliente.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-people lead mr-2"></i> Clientes</a>
+                <a href="usuario.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+                class="icon ion-md-people lead mr-2"></i> Usuarios</a>
+                <a href="grafico.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-stats lead mr-2"></i> Estadísticas</a>
+                <a href="eventos.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+            class="icon ion-md-calendar lead mr-2"></i>Eventos</a>
+                <a href="pagosti.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"><i
+                class="icon ion-md-calendar lead mr-2"></i>Pagos</a>
+                <a href="..//login_register/login.html" class="list-group-item list-group-item-action text-muted bg-light p-3 border-0"> <i class="icon ion-md-settings lead mr-2"></i> Cerrar Sesion</a>
+            </div>
+        </div>
+        <!-- Fin sidebar -->
+        <!-- Page Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <h3>Tabla de <span class="badge badge-secondary">Pagos</span></h3>
+                        <table id="tabla" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Correo</th>
+                                    <th>Evento</th>
+                                    <th>Tipo de Tarjeta</th>
+                                    <th>Tarjeta</th>
+                                    <th>Total</th>
+                                    <th>Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jonthan</td>
+                                    <td>Vera Macias</td>
+                                    <td>jveramacias2@gmail.com</td>
+                                    <td>Fiesta Nocturna </td>
+                                    <td>Visa Platinum</td>
+                                    <td>xxxxxxxxxxxx4070</td>
+                                    <td>$2,750</td>
+                                    <td>
+                                        <button>Editar</button>
+                                        <button style="color: brown;" value="Ejecutar" onclick="mensaje()">Pagar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Anddy</td>
+                                    <td>Lopez Ledesma</td>
+                                    <td>anddylopez85@gmail.com</td>
+                                    <td>
+                                        <li>Conferencia de Jhon Titor</li>
+                                        <li>Concierto Metallica </li>
+                                    </td>
+                                    <td>MasterCard</td>
+                                    <td>xxxxxxxxxxxx8874</td>
+                                    <td>$10,880</td>
+                                    <td>
+                                        <button>Editar</button>
+                                        <button style="color: brown;" value="Ejecutar" onclick="mensaje()">Pagar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Enzo</td>
+                                    <td>Tamaqiza Murillo</td>
+                                    <td>enzotm31@gmail.com</td>
+                                    <td>
+                                        <li>Fiesta Nocturna </li>
+                                        <li>Conferencia de Jhon Titor</li>
+                                    </td>
+                                    <td>American Express </td>
+                                    <td>xxxxxxxxxxx3320</td>
+                                    <td>$86,000</td>
+                                    <td>
+                                        <button>Editar</button>
+                                        <button style="color: brown;" value="Ejecutar" onclick="mensaje()">Pagar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Andres</td>
+                                    <td>Coello Goyes</td>
+                                    <td>coelloandres@gmail.com</td>
+                                    <td>Concierto Metallica </td>
+                                    <td>Discover</td>
+                                    <td>xxxxxxxxx8150</td>
+                                    <td>$4,060</td>
+                                    <td>
+                                        <button>Editar</button>
+                                        <button style="color: brown;" value="Ejecutar" onclick="mensaje()">Pagar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cristian</td>
+                                    <td>Moreira Pazmiño</td>
+                                    <td>crismoreia@yopmil.com</td>
+                                    <td>
+                                        Concierto Metallica
+                                    </td>
+                                    <td>Visa</td>
+                                    <td>xxxxxxxxxxx8547</td>
+                                    <td>$162,700</td>
+                                    <td>
+                                        <button>Editar</button>
+                                        <button style="color: brown;" value="Ejecutar" onclick="mensaje()">Pagar</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function dato() {
+                alert('Pago Exitoso');
+            }
+        </script>
+        <!-- Fin wrapper -->
+        <!-- Bootstrap y JQuery -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- jQuery, Popper.js, Bootstrap JS -->
+        <script src="jquery/jquery-3.3.1.min.js"></script>
+        <script src="popper/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- datatables JS -->
+        <script type="text/javascript" src="datatables/datatables.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

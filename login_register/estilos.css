@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("img/eventos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo {
+    background-color: rgba(14, 9, 9, 0.795);
+}
